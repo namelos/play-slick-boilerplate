@@ -4,10 +4,10 @@
   "description": "build javascript assets using node webpack instead of scala",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": ""
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --compilers js:babel-core/register assets/**/*.spec.js",
     "build": "webpack"
   },
   "author": "namelos",
@@ -16,6 +16,7 @@
     "node": "6.2.2"
   },
   "dependencies": {
+    "chai": "^3.5.0",
     "mocha": "^2.5.3"
   },
   "devDependencies": {

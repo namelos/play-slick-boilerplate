@@ -1,0 +1,15 @@
+{
+  "name": "namelos",
+  "version": "0.0.1",
+  "description": "build javascript assets using node webpack instead of scala",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "namelos",
+  "license": "MIT",
+  "engines": { "node": "6.2.2" }
+}

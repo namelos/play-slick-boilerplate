@@ -18,6 +18,10 @@ class Application @Inject() (catDao: CatDAO, dogDao: DogDAO) extends Controller 
     catDao.all().zip(dogDao.all()).map {case (cats, dogs) => Ok(views.html.index(cats, dogs)) }
   }
 
+  def react = Action {
+    Ok(views.html.react())
+  }
+
   val catForm = Form(
     mapping(
       "name" -> text(),

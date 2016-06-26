@@ -7,5 +7,7 @@ GET     /                           controllers.Application.index
 #GET     /db                         controllers.Application.db
 POST    /insert/cat                 controllers.Application.insertCat
 POST    /insert/dog                 controllers.Application.insertDog
+GET     /react                      controllers.Application.react
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

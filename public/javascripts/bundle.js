@@ -1,2 +1,0 @@
-!function(t){function e(r){if(o[r])return o[r].exports;var s=o[r]={exports:{},id:r,loaded:!1};return t[r].call(s.exports,s,s.exports,e),s.loaded=!0,s.exports}var o={};return e.m=t,e.c=o,e.p="/assets/",e(0)}([function(t,e,o){t.exports=o(1)},function(t,e,o){"use strict";var r=o(2);(0,r.test)()},function(t,e){"use strict";function o(){console.log("test works.")}Object.defineProperty(e,"__esModule",{value:!0}),e.test=o}]);
-//# sourceMappingURL=bundle.js.map

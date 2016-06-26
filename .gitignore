@@ -17,3 +17,4 @@ dist
 hk-debug
 node_modules
 /public/**/*.map
+/public/javascripts

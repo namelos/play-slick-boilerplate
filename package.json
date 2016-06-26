@@ -11,5 +11,10 @@
   },
   "author": "namelos",
   "license": "MIT",
-  "engines": { "node": "6.2.2" }
+  "engines": {
+    "node": "6.2.2"
+  },
+  "dependencies": {
+    "mocha": "^2.5.3"
+  }
 }

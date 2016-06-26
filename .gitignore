@@ -16,3 +16,4 @@ dist
 /.settings
 hk-debug
 node_modules
+/public/**/*.map
